@@ -1,11 +1,15 @@
 import pandas as pd
 from matplotlib import pyplot as plt
+<<<<<<< Updated upstream
 import numpy as np
+=======
+>>>>>>> Stashed changes
 
 life_exp = pd.read_csv('life_exp.csv')
 life_exp1970 = pd.read_csv('life_exp1970.csv')
 gdp_cap = pd.read_csv('gdp_cap.csv')
 pop = pd.read_csv('pop.csv')
+<<<<<<< Updated upstream
 col = pd.read_csv('col.csv')
 
 
@@ -32,3 +36,10 @@ plt.text(1550, 71, 'India')
 plt.text(5700, 80, 'China')
 
 plt.show()
+=======
+
+plt.scatter(pop, life_exp)
+plt.scatter(gdp_cap, life_exp)
+plt.xscale('log')
+plt.show()
+>>>>>>> Stashed changes
