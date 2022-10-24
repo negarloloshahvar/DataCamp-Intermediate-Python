@@ -1,3 +1,6 @@
+This Project will allow me to apply all the concepts I've learned in this course. I will use hacker statistics to calculate my chances of winning a bet.
+I will use random number generators, loops, and Matplotlib to gain a competitive edge!
+
 My friend and I are at the Empire State Building, and we are going to climb the
 stairs. My climbing moves follows the following rules:
 
